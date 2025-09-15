@@ -36,3 +36,12 @@ O objetivo é prever a classe de um vinho com base em suas características fís
    ```bash
    git clone https://github.com/nathaliagmsss/CP2-redes-neurais.git
    cd CP2-redes-neurais
+
+
+# Atividade 2 - REGRESSÃO
+
+Para rodar o notebook no Jupyter, basta abrir o arquivo e executar as células na ordem, de cima para baixo. O notebook utiliza a biblioteca Keras para treinar uma rede neural. Primeiro, importa as bibliotecas necessárias e carrega os dados. Depois, prepara os dados para o treinamento, definindo a estrutura da rede neural com camadas densas, função de ativação e outras configurações.
+
+Após definir o modelo, ele é treinado com os dados de entrada e depois testado para ver sua precisão. O notebook calcula métricas como o erro médio quadrático (MSE) e o erro absoluto médio (MAE), que indicam a qualidade das previsões da rede. No resultado mostrado, a rede neural teve desempenho pior que um modelo Random Forest, que apresentou erros menores.
+
+Resumindo, o notebook mostra como criar, treinar e avaliar um modelo Keras para regressão e compara seu desempenho com outro modelo clássico. Para rodar os experimentos, basta executar as células sequencialmente em um ambiente com Python, Keras e demais bibliotecas instaladas.
